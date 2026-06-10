@@ -42,8 +42,6 @@ echo-artifact/
 │   ├── query_planner/       # Query decomposition and query-cell mapping
 │   ├── lattice_builder/     # EC construction and EC matching
 │   ├── hypergraph/          # Query--EC hypergraph construction
-│   ├── rl_selection/        # RL-based EC selection
-│   ├── online_phase/        # Online query evaluation
 │   └── utils/               # Utility functions
 ├── scripts/                 # Running scripts
 ├── examples/                # Small example data
