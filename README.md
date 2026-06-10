@@ -9,7 +9,7 @@ The artifact includes the code for data generation, query decomposition, EC cons
 
 
 The code was tested with the following environment:
-
+```text
 Python 3.8
 PyTorch
 NumPy
@@ -20,15 +20,17 @@ Matplotlib
 scikit-learn
 Apache Spark 3.5.3
 Scala 2.12
+```
 
 Install Python dependencies:
-
+```text
 pip install -r requirements.txt
-
+```
 Or use Conda:
-
+```text
 conda env create -f environment.yml
 conda activate echo
+```
 
 ## 2. Repository Structure
 
