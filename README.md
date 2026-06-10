@@ -30,7 +30,9 @@ Or use Conda:
 conda env create -f environment.yml
 conda activate echo
 
-2. Repository Structure
+## 2. Repository Structure
+
+```text
 echo-artifact/
 ├── configs/                 # Experiment configuration files
 ├── echo/
@@ -44,6 +46,8 @@ echo-artifact/
 ├── scripts/                 # Running scripts
 ├── examples/                # Small example data
 └── tests/                   # Unit tests
+```
+
 
 
 
