@@ -1,4 +1,4 @@
-# ECHO-EDBT2027
+# ECHO
 Source code and artifacts for ECHO: Equivalence Class-Based Hypergraph Optimizer
 
 This repository contains the implementation of ECHO, an equivalence class-based materialized view selection framework for distributed OLAP query processing.
