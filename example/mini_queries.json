@@ -1,0 +1,17 @@
+[
+  {
+    "query_id": "Q1",
+    "sql": "SELECT Store, SUM(Sales) FROM Sales GROUP BY Store",
+    "template": "single_table_aggregate"
+  },
+  {
+    "query_id": "Q2",
+    "sql": "SELECT Store, Product, SUM(Sales) FROM Sales WHERE Product = 'P1' GROUP BY Store, Product",
+    "template": "single_table_aggregate"
+  },
+  {
+    "query_id": "Q3",
+    "sql": "SELECT Store, Time, SUM(Sales) FROM Sales WHERE Time = 'T1' GROUP BY Store, Time",
+    "template": "single_table_aggregate"
+  }
+]
